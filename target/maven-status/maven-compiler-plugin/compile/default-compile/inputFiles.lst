@@ -1,8 +1,0 @@
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/RedisAuroraDemoApplication.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/config/LettuceConfig.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/config/RedisConfig.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/controller/UserController.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/entity/User.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/mapper/UserMapper.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/service/UserService.java
-/Users/river/work/demo/springboot/funfo/src/main/java/com/funfo/demo/service/impl/UserServiceImpl.java
