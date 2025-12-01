@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="dmAjvOlyCffLzNI11dKK">
-    <mxGraphModel dx="1799" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,6 +10,16 @@
         <mxCell id="d34b3HN8rFC84QWvv8ir-91" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d34b3HN8rFC84QWvv8ir-25" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1100" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d34b3HN8rFC84QWvv8ir-132" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="d34b3HN8rFC84QWvv8ir-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d34b3HN8rFC84QWvv8ir-133" connectable="0" parent="d34b3HN8rFC84QWvv8ir-132" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单服务独立db" vertex="1">
+          <mxGeometry relative="1" x="0.3136" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -168,8 +178,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d34b3HN8rFC84QWvv8ir-95" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="340" width="413" x="1580" y="570" as="geometry" />
+        <mxCell id="d34b3HN8rFC84QWvv8ir-95" connectable="0" parent="1" style="group;dashed=1;dashPattern=12 12;strokeWidth=2;strokeColor=default;rounded=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="340" width="413" x="1580" y="610" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-96" parent="d34b3HN8rFC84QWvv8ir-95" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="340" width="413" as="geometry" />
@@ -195,7 +205,7 @@
         <mxCell id="d34b3HN8rFC84QWvv8ir-102" parent="d34b3HN8rFC84QWvv8ir-95" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAEA;" value="订单独立MySQL&lt;br&gt;&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;一主两从/一从）&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="17.5" y="15" as="geometry" />
         </mxCell>
-        <mxCell id="d34b3HN8rFC84QWvv8ir-119" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="d34b3HN8rFC84QWvv8ir-96" value="">
+        <mxCell id="d34b3HN8rFC84QWvv8ir-119" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="d34b3HN8rFC84QWvv8ir-96" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1659.5" y="1040" as="targetPoint" />
           </mxGeometry>
@@ -203,21 +213,6 @@
         <mxCell id="d34b3HN8rFC84QWvv8ir-122" connectable="0" parent="d34b3HN8rFC84QWvv8ir-119" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单服务独立db" vertex="1">
           <mxGeometry relative="1" x="0.1515" y="1" as="geometry">
             <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="d34b3HN8rFC84QWvv8ir-120" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.99;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;" target="d34b3HN8rFC84QWvv8ir-96" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="866" y="510" />
-              <mxPoint x="1787" y="510" />
-            </Array>
-            <mxPoint x="880" y="510" as="sourcePoint" />
-            <mxPoint x="1787" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="d34b3HN8rFC84QWvv8ir-121" connectable="0" parent="d34b3HN8rFC84QWvv8ir-120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单服务独立DB" vertex="1">
-          <mxGeometry relative="1" x="-0.0255" y="4" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;" value="" vertex="1">
