@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="" vertex="1">
-          <mxGeometry height="580" width="420" x="450" y="410" as="geometry" />
+          <mxGeometry height="580" width="400" x="470" y="410" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-13" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="d34b3HN8rFC84QWvv8ir-16" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry height="78" width="78" x="730" y="861" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAEA;fontSize=14;" value="订单核心服务&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EC2实例4台：4C16G）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="470" y="420" as="geometry" />
+          <mxGeometry height="60" width="120" x="490" y="420" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-39" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="d34b3HN8rFC84QWvv8ir-34" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -134,7 +134,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="" vertex="1">
-          <mxGeometry height="580" width="420" x="450" y="1060" as="geometry" />
+          <mxGeometry height="580" width="420" x="470" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-71" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" value="菜品+店铺数据+报表&lt;br&gt;&lt;div&gt;Springboot:8086端口&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="730" y="1151" as="geometry" />
@@ -149,7 +149,7 @@
           <mxGeometry height="78" width="78" x="730" y="1511" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-75" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFAEA;fontSize=14;" value="通用服务：&lt;div&gt;菜品+店铺数据+报表&lt;div&gt;（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EC2实例4台：4C16G）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="140" x="470" y="1068" as="geometry" />
+          <mxGeometry height="78" width="140" x="490" y="1062" as="geometry" />
         </mxCell>
         <mxCell id="d34b3HN8rFC84QWvv8ir-76" edge="1" parent="1" source="d34b3HN8rFC84QWvv8ir-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="d34b3HN8rFC84QWvv8ir-71" value="">
           <mxGeometry relative="1" as="geometry" />
